@@ -59,6 +59,7 @@ npm test -- --coverage --watchAll=false
 - Coverage report is generated in the `coverage` directory inside the backend folder.
 
 ## Test Coverage
+![Screenshot 2025-06-23 233643](https://github.com/user-attachments/assets/9bb1567a-f04d-4f0b-a1e9-4a594e4082d1)
 
 
 
