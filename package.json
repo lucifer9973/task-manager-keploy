@@ -1,0 +1,16 @@
+{
+  "name": "task-manager-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd task-manager-api/server && node server.js",
+    "client": "cd task-manager-api-client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "jest": "^30.0.2",
+    "mongodb-memory-server": "^10.1.4",
+    "supertest": "^7.1.1"
+  }
+}
